@@ -9,9 +9,7 @@
 6. [Daily Health News](#daily-health-news)
 7. [Permissions](#permissions)
 8. [Dependencies](#dependencies)
-9. [Project Explanation](#project-explanation)
-10. [Pictures](#pictures)
-11. [Project Realization](#project-realization)
+9. [Demo](#demo)
 
 ## Overview
 
@@ -188,68 +186,21 @@ plugins {
     id 'org.jetbrains.kotlin.android' version '1.7.21' apply false
 }
 ```
-## Project Explanation
 
-### **MainActivity**
+## Demo
 
-In this screen, users can choose to log in to the application as Doctor or Patient.
+<h2 align="center">MainActivity</h2>
 
-<p>
+<p align="center">
+    In this screen, users can choose to log in to the application as Doctor or Patient.
+</p>
+
+<p align="center">
     <img width="180" alt="mainactivity" src="https://github.com/akinemreyazici/MedMobile/assets/116732291/0250a54a-bcb5-4691-a26f-4d7664664e08">
 </p>
 
-### **Patient Section**
 
-#### **PatientLoginActivity**
-Patients can log in to the application through this screen. If you are not already registered as a patient, your email address should contain "@patient.com". If not registered, you can transition to the registration screen by using the "Register" button.
-
-#### **PatientRegisterActivity**
-In the patient registration screen, enter name, surname, age, email, and password information. If the email is unique and the other information is filled in completely, the user's information is saved in both FirebaseAuth and Firestore. Note: The profile picture is not saved initially; this can be configured in the profile editing section.
-
-#### **PatientHomePageActivity**
-On the patient's home page, all doctors registered in Firestore are listed (These doctors have registered in the Doctor registration section). Doctors are listed along with their fields of expertise, names, surnames, and ages. When any of them is clicked, the appointment page opens.
-
-#### **AppointmentActivity**
-After clicking on the doctor, the appointment page opens. Here, certain rules must be met to make an appointment. After making the appointment, this appointment is saved in Firestore for both the patient and the doctor and returns to the patient's homepage.
-
-#### **MyAppointmentActivity**
-Accessible by clicking on the appointment icon through OptionsMenu. Here, all the appointments of the patient who has logged in so far are listed. If the list element is long pressed, the appointment can be deleted. This also means that the appointment is deleted from the doctor's appointment collection.
-
-#### **NewsActivity**
-Accessible by clicking on the news icon through OptionsMenu. It fetches daily health news from the relevant website and allows the user to check it.
-
-#### **PatientProfileActivity**
-Accessible by clicking on the profile icon through OptionsMenu. The user's profile information is displayed. The user can delete or edit his account. If he deletes the account, the user will be deleted from Firestore and FirebaseAuth. With the Edit option, you transition to `PatientProfileEditActivity`.
-
-#### **PatientProfileEditActivity**
-On this screen, the user can change the name, surname, age, password, and profile picture. However, to edit these, the user must enter the current password. For the profile picture, the user goes to the phone's gallery and selects a photo. After saving the changes, it returns to `PatientProfileActivity` with a slight delay.
-
-Finally, through the OptionsMenu, the user can log out by clicking on the logout icon and return to the main page (`MainActivity`).
-
-### **Doctor Section**
-
-#### **DoctorLoginActivity**
-Doctors can log in to the application through this screen. If you are not already registered as a doctor, your email address should contain "@doctor.com". If not registered, you can transition to the registration screen by using the "Register" button.
-
-#### **DoctorRegisterActivity**
-In the doctor registration screen, enter name, surname, age, email, password, and field of expertise information. If the email is unique and the other information is filled in completely, the user's information is saved in both FirebaseAuth and Firestore. Note: The profile picture is not saved initially; this can be configured in the profile editing section.
-
-#### **DoctorHomePageActivity**
-On the doctor's home page, all the appointments made with the doctor are listed. The doctor can view all of the appointments. If the doctor long-presses an appointment, they have the option to delete it.
-
-#### **NewsActivity (For Doctor)**
-Accessible by clicking on the news icon through OptionsMenu. It fetches daily health news from the relevant website and allows the user to check it.
-
-#### **DoctorProfileActivity**
-Accessible by clicking on the profile icon through OptionsMenu. The user's profile information is displayed. The user can delete or edit his account. If he deletes the account, the user will be deleted from Firestore and FirebaseAuth. With the Edit option, you transition to `DoctorProfileEditActivity`.
-
-#### **DoctorProfileEditActivity**
-On this screen, the user can change the name, surname, age, password, field of expertise, and profile picture. However, to edit these, the user must enter the current password. For the profile picture, the user goes to the phone's gallery and selects a photo. After saving the changes, it returns to `DoctorProfileActivity` with a slight delay.
-
-Finally, through the OptionsMenu, the user can log out by clicking on the logout icon and return to the main page (`MainActivity`).
-
-
-### Pictures
+<h2 align="center">Pictures</h2>
 
 <p align="center">
     <img width="200" alt="doctorRegister" src="https://github.com/akinemreyazici/MedMobile/assets/116732291/39e2dbcb-e9ea-4fb7-b7f2-0b08787320b8">
@@ -258,14 +209,13 @@ Finally, through the OptionsMenu, the user can log out by clicking on the logout
     <img width="200" alt="patientHomepage" src="https://github.com/akinemreyazici/MedMobile/assets/116732291/ccac0ad5-3359-4f11-abc8-14c0b5b031fb">
 </p>
 
-### Project Realization
+<h2 align="center">Project Realization</h2>
 
 
 <p align="center">
     <img width="200" alt="login" src="https://github.com/akinemreyazici/MedMobile/assets/116732291/d2fe88d9-8636-4cbc-bb41-1a492b2eea13">
     <img width="200" alt="appDeletegif" src="https://github.com/akinemreyazici/MedMobile/assets/116732291/4c478bb9-480f-4235-885b-521e6956b320">
-    <img width="200" alt="newsShow" src="https://github.com/akinemreyazici/MedMobile/assets/116732291/d82204da-62cb-4b09-9365-8fbb2afb1d9e">
- 
+    <img width="200" alt="newsShow" src="https://github.com/akinemreyazici/MedMobile/assets/116732291/d82204da-62cb-4b09-9365-8fbb2afb1d9e"> 
 </p>
 
 <p align="center">
