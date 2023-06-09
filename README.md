@@ -6,23 +6,24 @@
 3. [Technologies](#technologies)
 4. [User Profiles](#user-profiles)
 5. [Appointments](#appointments)
-6. [Permissions](#permissions)
-7. [Dependencies](#dependencies)
-8. [Project Explanation](#project-explanation)
-9. [Pictures](#pictures)
-10. [Project Realization](#project-realization)
+6. [Daily Health News](#daily-health-news)
+7. [Permissions](#permissions)
+8. [Dependencies](#dependencies)
+9. [Project Explanation](#project-explanation)
+10. [Pictures](#pictures)
+11. [Project Realization](#project-realization)
 
-## Overview
+## 1)Overview
 
 MedMobile is an Android application aimed at improving the interaction between doctors and patients. Through this app, patients can manage their medical appointments and doctors can keep track of their schedules. The application integrates Firebase for authentication, database storage, and media hosting.
 
-## Features
+## 2)Features
 
 ### User Authentication
 
 - Utilizes Firebase Authentication for user sign-up and login.
 
-## Technologies
+## 3)Technologies
 
 - **Firebase Auth**
 - **Firebase Firestore**
@@ -30,7 +31,9 @@ MedMobile is an Android application aimed at improving the interaction between d
 - **Glide**
 - **Jsoup**
 
-### User Profiles
+
+
+## 4)User Profiles
 
 - There are two types of user profiles: Patient Profile and Doctor Profile.
 - Allows users to create and update their profiles including:
@@ -42,27 +45,6 @@ MedMobile is an Android application aimed at improving the interaction between d
     
 - Profile pictures are stored in Firebase Storage, and their URLs are saved in the Firestore database.
 - Uses Glide to display profile images efficiently.
-
-### Appointments
-
-- Users can schedule appointments using customized Date and Time pickers:
-    - No appointment can be made for a date earlier than today.
-    - Appointments can be scheduled for a maximum of 20 days ahead.
-    - Time slots are available between 9:00 AM to 5:00 PM in 15-minute intervals.
-  
-- Appointments are stored in two different collections in Firestore for easy retrieval:
-    - Under the patient's email for all their appointments.
-    - Under the doctor's email for all the doctor’s appointments.
-    
-- Users can view their appointments within the app.
-- Users can long-press an appointment to cancel it. When an appointment is canceled by the doctor, it is also removed from the patient's schedule. Same for the patient aswell. When patient canceled an appointment, it is also removed from the doctor's schedule. 
-
-### Daily Health News
-- Retrieves daily health news from [haberler.com/saglik](https://www.haberler.com/saglik/) by parsing HTML using Jsoup.
-- News is displayed in a list and updated daily.
-- Clicking on a news item opens the full article in a WebView.
-
-## User Profiles
 
 ### Patient Profile
 Data Model:
@@ -110,7 +92,23 @@ data class DoctorData(
 - **password**: Password for the doctor's account.
 - **image**: URL of the doctor's profile image stored in Firebase Storage.
 
-## Appointments
+## 5)Appointments
+
+### Appointments
+
+- Users can schedule appointments using customized Date and Time pickers:
+    - No appointment can be made for a date earlier than today.
+    - Appointments can be scheduled for a maximum of 20 days ahead.
+    - Time slots are available between 9:00 AM to 5:00 PM in 15-minute intervals.
+  
+- Appointments are stored in two different collections in Firestore for easy retrieval:
+    - Under the patient's email for all their appointments.
+    - Under the doctor's email for all the doctor’s appointments.
+    
+- Users can view their appointments within the app.
+- Users can long-press an appointment to cancel it. When an appointment is canceled by the doctor, it is also removed from the patient's schedule. Same for the patient aswell. When patient canceled an appointment, it is also removed from the doctor's schedule. 
+
+
 
 Appointment Data Model:
 ```kotlin
@@ -142,14 +140,19 @@ Appointments are stored in Firestore under two different collections for easy re
 - Under the patient's email (`patientEmail`) for all their appointments.
 - Under the doctor's email (`doctorEmail`) for all the doctor’s appointments.
 
-## Permissions
+## 6)Daily Health News
+- Retrieves daily health news from [haberler.com/saglik](https://www.haberler.com/saglik/) by parsing HTML using Jsoup.
+- News is displayed in a list and updated daily.
+- Clicking on a news item opens the full article in a WebView.
+
+## 7)Permissions
 
 The application requires the following permissions:
 ```xml
 <uses-permission android:name="android.permission.INTERNET" />
 <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 ```
-## Dependencies
+## 8)Dependencies
 Make sure to include these dependencies in your build.gradle file before building the project.
 ```groovy
 dependencies {
@@ -185,7 +188,7 @@ plugins {
     id 'org.jetbrains.kotlin.android' version '1.7.21' apply false
 }
 ```
-## Project Explanation
+## 9)Project Explanation
 
 ### **MainActivity**
 
@@ -246,7 +249,7 @@ On this screen, the user can change the name, surname, age, password, field of e
 Finally, through the OptionsMenu, the user can log out by clicking on the logout icon and return to the main page (`MainActivity`).
 
 
-### **Pictures**
+### 10)Pictures
 
 <p align="center">
     <img width="200" alt="doctorRegister" src="https://github.com/akinemreyazici/MedMobile/assets/116732291/39e2dbcb-e9ea-4fb7-b7f2-0b08787320b8">
@@ -255,7 +258,7 @@ Finally, through the OptionsMenu, the user can log out by clicking on the logout
     <img width="200" alt="patientHomepage" src="https://github.com/akinemreyazici/MedMobile/assets/116732291/ccac0ad5-3359-4f11-abc8-14c0b5b031fb">
 </p>
 
-### **Project Realization**
+### 11)Project Realization
 
 
 <p align="center">
