@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "359538717303",
+    "project_id": "muhtas2-789ac",
+    "storage_bucket": "muhtas2-789ac.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:359538717303:android:0e525b9581b355d5de0c72",
+        "android_client_info": {
+          "package_name": "com.works.muhtas2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "359538717303-16pj4calfbcgq8usiiu7lukbi1bn65nh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCyG5EOVG7hX_nAV84EMSsj8YaqAWmlovg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "359538717303-16pj4calfbcgq8usiiu7lukbi1bn65nh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

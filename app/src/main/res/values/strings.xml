@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">MedMobile</string>
+    <string name="email">E-mailiniz</string>
+    <string name="password">Şifreniz</string>
+    <string name="header">MedMobile</string>
+    <string name="register">Kayıt Ol</string>
+    <string name="login">Giriş</string>
+
+    <string name="profile">Profile</string>
+    <string name="logout">Logout</string>
+    <string name="news">Haberler</string>
+
+    <string name="appointment">Randevu Al</string>
+    <string name="cancel">İptal Et</string>
+
+    <string name="doctor">Doktor olarak giriş yap</string>
+    <string name="patient">Hasta olarak giriş yap</string>
+
+    <string-array name="doctor_specialties">
+        <item>Ağız ve Diş Sağlığı</item>
+        <item>Anesteziyoloji ve Reanimasyon</item>
+        <item>Beslenme ve Diyetetik</item>
+        <item>Beyin ve Sinir Cerrahisi</item>
+        <item>Çocuk Cerrahisi</item>
+        <item>Çocuk Endokrinolojisi</item>
+        <item>Çocuk Enfeksiyon Hastalıkları</item>
+        <item>Çocuk Gastroenterolojisi</item>
+        <item>Çocuk Hematolojisi</item>
+        <item>Çocuk Kardiyolojisi</item>
+        <item>Çocuk Nefrolojisi</item>
+        <item>Çocuk Psikiyatrisi</item>
+        <item>Çocuk Sağlığı ve Hastalıkları</item>
+        <item>Çocuk Ürolojisi</item>
+        <item>Dermatoloji</item>
+        <item>Endokrinoloji ve Metabolizma Hastalıkları</item>
+        <item>Fiziksel Tıp ve Rehabilitasyon</item>
+        <item>Gastroenteroloji</item>
+        <item>Genel Cerrahi</item>
+        <item>Genetik</item>
+        <item>Göğüs Cerrahisi</item>
+        <item>Göğüs Hastalıkları</item>
+        <item>Göz Hastalıkları</item>
+        <item>Hematoloji</item>
+        <item>İç Hastalıkları (Dahiliye)</item>
+        <item>İmmünoloji</item>
+        <item>Jinekolojik Onkoloji</item>
+        <item>Kadın Hastalıkları ve Doğum</item>
+        <item>Kalp ve Damar Cerrahisi</item>
+        <item>Kardiyoloji</item>
+        <item>Kulak Burun Boğaz Hastalıkları</item>
+        <item>Mikrobiyoloji</item>
+        <item>Nefroloji</item>
+        <item>Neonatoloji</item>
+        <item>Nöroloji</item>
+        <item>Nöroşirurji</item>
+        <item>Ortopedi ve Travmatoloji</item>
+        <item>Plastik, Rekonstrüktif ve Estetik Cerrahi</item>
+        <item>Psikiyatri</item>
+        <item>Radyasyon Onkolojisi</item>
+        <item>Radyoloji</item>
+        <item>Tıbbi Biyokimya</item>
+        <item>Tıbbi Genetik</item>
+        <item>Tıbbi Mikrobiyoloji</item>
+        <item>Tıbbi Onkoloji</item>
+        <item>Tıbbi Patoloji</item>
+        <item>Tıbbi Farmakoloji</item>
+        <item>Üroloji</item>
+    </string-array>
+
+</resources>

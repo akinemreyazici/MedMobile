@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E3F2FD"
+    tools:context=".doctor.DoctorLoginActivity">
+
+    <EditText
+        android:id="@+id/editTxtDoctorLEmail"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="96dp"
+        android:layout_marginEnd="30dp"
+        android:background="@color/white"
+        android:ems="10"
+        android:fontFamily="@font/baloo"
+        android:hint="@string/email"
+        android:inputType="textLongMessage"
+        android:padding="5dp"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtHeader" />
+
+    <EditText
+        android:id="@+id/editTxtDoctorLPassword"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="30dp"
+        android:background="@color/white"
+        android:ems="10"
+        android:fontFamily="@font/baloo"
+        android:hint="@string/password"
+        android:inputType="number"
+        android:padding="5dp"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTxtDoctorLEmail" />
+
+    <Button
+        android:id="@+id/btnDoctorRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="96dp"
+        android:layout_marginEnd="180dp"
+        android:text="@string/register"
+        app:icon="@drawable/ic_register"
+        app:layout_constraintEnd_toEndOf="@+id/editTxtDoctorLPassword"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTxtDoctorLPassword" />
+
+    <Button
+        android:id="@+id/btnDoctorLogin"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="180dp"
+        android:layout_marginTop="96dp"
+        android:layout_marginEnd="30dp"
+        android:text="@string/login"
+        app:icon="@drawable/ic_login"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/editTxtDoctorLPassword"
+        app:layout_constraintTop_toBottomOf="@+id/editTxtDoctorLPassword" />
+
+    <TextView
+        android:id="@+id/txtHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:fontFamily="@font/baloo"
+        android:padding="5dp"
+        android:text="@string/header"
+        android:textColor="#FF7043"
+        android:textSize="60sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

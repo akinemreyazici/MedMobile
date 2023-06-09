@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B2DFDB"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/doctorButton"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginEnd="30dp"
+        android:background="@drawable/ic_doctor"
+        android:clickable="true"
+        android:contentDescription="Doctor"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toStartOf="@+id/patientButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/patientButton"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="48dp"
+        android:background="@drawable/ic_patient"
+        android:clickable="true"
+        android:contentDescription="Patient"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/doctorButton"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginBottom="100dp"
+        android:fontFamily="@font/baloo"
+        android:padding="8dp"
+        android:text="MedMobile"
+        android:textAlignment="center"
+        android:textColor="#009688"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/patientButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/baloo"
+        android:padding="5dp"
+        android:text="@string/doctor"
+        android:textAlignment="center"
+        android:textColor="#009688"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/doctorButton"
+        app:layout_constraintStart_toStartOf="@+id/doctorButton"
+        app:layout_constraintTop_toBottomOf="@+id/doctorButton" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/baloo"
+        android:padding="5dp"
+        android:text="@string/patient"
+        android:textAlignment="center"
+        android:textColor="#009688"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/patientButton"
+        app:layout_constraintStart_toStartOf="@+id/patientButton"
+        app:layout_constraintTop_toBottomOf="@+id/patientButton" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

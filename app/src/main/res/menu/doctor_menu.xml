@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/doctor_news"
+        android:icon="@drawable/ic_news"
+        android:title="News"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/doctor_profile"
+        android:icon="@drawable/ic_profil"
+        android:title="Profile"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/doctor_logout"
+        android:icon="@drawable/ic_logout"
+        android:title="Logout"
+        app:showAsAction="ifRoom" />
+</menu>
