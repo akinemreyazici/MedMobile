@@ -3,13 +3,14 @@
 ## Table of Contents
 1. [Overview](#overview)
 2. [Features](#features)
-3. [User Profiles](#user-profiles)
-4. [Appointments](#appointments)
-5. [Permissions](#permissions)
-6. [Dependencies](#dependencies)
-7. [Project Explanation](#project-explanation)
-8. [Pictures](#pictures)
-9. [Project Realization](#project-realization)
+3. [Technologies](#technologies)
+4. [User Profiles](#user-profiles)
+5. [Appointments](#appointments)
+6. [Permissions](#permissions)
+7. [Dependencies](#dependencies)
+8. [Project Explanation](#project-explanation)
+9. [Pictures](#pictures)
+10. [Project Realization](#project-realization)
 
 ## Overview
 
@@ -20,6 +21,14 @@ MedMobile is an Android application aimed at improving the interaction between d
 ### User Authentication
 
 - Utilizes Firebase Authentication for user sign-up and login.
+
+## Technologies
+
+- **Firebase Auth**
+- **Firebase Firestore**
+- **Firebase Storage**
+- **Glide**
+- **Jsoup**
 
 ### User Profiles
 
