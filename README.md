@@ -92,14 +92,14 @@ data class DoctorData(
 )
 ```
 
--**UID**: Unique Identifier for the doctor.
--**First**: First name of the doctor.
--**Last**: Last name of the doctor.
--**Age**: Age of the doctor.
--**Field**: Medical field or specialization of the doctor.
--**Email**: Email address of the doctor.
--**Password**: Password for the doctor's account.
--**Image**: URL of the doctor's profile image stored in Firebase Storage.
+- **UID**: Unique Identifier for the doctor.
+- **First**: First name of the doctor.
+- **Last**: Last name of the doctor.
+- **Age**: Age of the doctor.
+- **Field**: Medical field or specialization of the doctor.
+- **Email**: Email address of the doctor.
+- **Password**: Password for the doctor's account.
+- **Image**: URL of the doctor's profile image stored in Firebase Storage.
 
 ## Appointments
 
