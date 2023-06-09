@@ -8,6 +8,7 @@ data class AppointmentData(
     val patientImg : String? = null,
     val doctorName : String? = null,
     val doctorImg : String? = null,
+    val doctorField : String? = null,
     val note : String? = null,
     val date : String? = null,
     val hour : String? = null

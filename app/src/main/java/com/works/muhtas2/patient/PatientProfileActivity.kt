@@ -116,8 +116,8 @@ class PatientProfileActivity : AppCompatActivity() {
 
 
 
-
             startActivity(intent)
+            finish()
 
         }
 

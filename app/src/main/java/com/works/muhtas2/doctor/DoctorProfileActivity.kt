@@ -116,7 +116,7 @@ class DoctorProfileActivity : AppCompatActivity() {
         btnEditProfile.setOnClickListener {
             val intent = Intent(this, DoctorProfileEditActivity::class.java)
             startActivity(intent)
-
+            finish()
         }
     }
 

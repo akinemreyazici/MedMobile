@@ -175,8 +175,9 @@ class AppointmentActivity : AppCompatActivity() {
                     patientEmail,
                     patientFullName,
                     patientImage,
-                    doctorName,
+                    doctorFullname,
                     doctorImage,
+                    doctorField,
                     appointmentNote,
                     appointmentDate,
                     appointmentHour
