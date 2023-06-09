@@ -1,7 +1,7 @@
 # MedMobile
 
 ## Table of Contents
-1. [Overview](#1overview)
+1. [Overview](#overview)
 2. [Features](#features)
 3. [Technologies](#technologies)
 4. [User Profiles](#user-profiles)
@@ -13,17 +13,17 @@
 10. [Pictures](#pictures)
 11. [Project Realization](#project-realization)
 
-## 1) Overview
+## Overview
 
 MedMobile is an Android application aimed at improving the interaction between doctors and patients. Through this app, patients can manage their medical appointments and doctors can keep track of their schedules. The application integrates Firebase for authentication, database storage, and media hosting.
 
-## 2) Features
+## Features
 
 ### User Authentication
 
 - Utilizes Firebase Authentication for user sign-up and login.
 
-## 3) Technologies
+## Technologies
 
 - **Firebase Auth**
 - **Firebase Firestore**
@@ -33,7 +33,7 @@ MedMobile is an Android application aimed at improving the interaction between d
 
 
 
-## 4) User Profiles
+##  User Profiles
 
 - There are two types of user profiles: Patient Profile and Doctor Profile.
 - Allows users to create and update their profiles including:
@@ -92,7 +92,7 @@ data class DoctorData(
 - **password**: Password for the doctor's account.
 - **image**: URL of the doctor's profile image stored in Firebase Storage.
 
-## 5)Appointments
+## Appointments
 
 ### Appointments
 
@@ -140,19 +140,19 @@ Appointments are stored in Firestore under two different collections for easy re
 - Under the patient's email (`patientEmail`) for all their appointments.
 - Under the doctor's email (`doctorEmail`) for all the doctor’s appointments.
 
-## 6)Daily Health News
+## Daily Health News
 - Retrieves daily health news from [haberler.com/saglik](https://www.haberler.com/saglik/) by parsing HTML using Jsoup.
 - News is displayed in a list and updated daily.
 - Clicking on a news item opens the full article in a WebView.
 
-## 7)Permissions
+## Permissions
 
 The application requires the following permissions:
 ```xml
 <uses-permission android:name="android.permission.INTERNET" />
 <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 ```
-## 8)Dependencies
+## Dependencies
 Make sure to include these dependencies in your build.gradle file before building the project.
 ```groovy
 dependencies {
@@ -188,7 +188,7 @@ plugins {
     id 'org.jetbrains.kotlin.android' version '1.7.21' apply false
 }
 ```
-## 9)Project Explanation
+## Project Explanation
 
 ### **MainActivity**
 
@@ -249,7 +249,7 @@ On this screen, the user can change the name, surname, age, password, field of e
 Finally, through the OptionsMenu, the user can log out by clicking on the logout icon and return to the main page (`MainActivity`).
 
 
-### 10)Pictures
+### Pictures
 
 <p align="center">
     <img width="200" alt="doctorRegister" src="https://github.com/akinemreyazici/MedMobile/assets/116732291/39e2dbcb-e9ea-4fb7-b7f2-0b08787320b8">
@@ -258,7 +258,7 @@ Finally, through the OptionsMenu, the user can log out by clicking on the logout
     <img width="200" alt="patientHomepage" src="https://github.com/akinemreyazici/MedMobile/assets/116732291/ccac0ad5-3359-4f11-abc8-14c0b5b031fb">
 </p>
 
-### 11)Project Realization
+### Project Realization
 
 
 <p align="center">
