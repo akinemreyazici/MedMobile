@@ -1,7 +1,7 @@
 # MedMobile
 
 ## Table of Contents
-1. [1)Overview](#1overview)
+1. [Overview](#1overview)
 2. [Features](#features)
 3. [Technologies](#technologies)
 4. [User Profiles](#user-profiles)
@@ -13,17 +13,17 @@
 10. [Pictures](#pictures)
 11. [Project Realization](#project-realization)
 
-## 1)Overview
+## 1) Overview
 
 MedMobile is an Android application aimed at improving the interaction between doctors and patients. Through this app, patients can manage their medical appointments and doctors can keep track of their schedules. The application integrates Firebase for authentication, database storage, and media hosting.
 
-## 2)Features
+## 2) Features
 
 ### User Authentication
 
 - Utilizes Firebase Authentication for user sign-up and login.
 
-## 3)Technologies
+## 3) Technologies
 
 - **Firebase Auth**
 - **Firebase Firestore**
@@ -33,7 +33,7 @@ MedMobile is an Android application aimed at improving the interaction between d
 
 
 
-## 4)User Profiles
+## 4) User Profiles
 
 - There are two types of user profiles: Patient Profile and Doctor Profile.
 - Allows users to create and update their profiles including:
