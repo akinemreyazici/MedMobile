@@ -264,6 +264,8 @@ Finally, through the OptionsMenu, the user can log out by clicking on the logout
 <p align="center">
     <img width="200" alt="login" src="https://github.com/akinemreyazici/MedMobile/assets/116732291/d2fe88d9-8636-4cbc-bb41-1a492b2eea13">
     <img width="200" alt="appDeletegif" src="https://github.com/akinemreyazici/MedMobile/assets/116732291/4c478bb9-480f-4235-885b-521e6956b320">
+    <img width="200" alt="newsShow" src="https://github.com/akinemreyazici/MedMobile/assets/116732291/d82204da-62cb-4b09-9365-8fbb2afb1d9e">
+ 
 </p>
 
 <p align="center">
