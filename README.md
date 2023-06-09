@@ -262,11 +262,14 @@ Finally, through the OptionsMenu, the user can log out by clicking on the logout
 
 
 <p align="center">
-    <img width="165" alt="login" src="https://github.com/akinemreyazici/MedMobile/assets/116732291/d2fe88d9-8636-4cbc-bb41-1a492b2eea13">
-    <img width="165" alt="appDeletegif" src="https://github.com/akinemreyazici/MedMobile/assets/116732291/4c478bb9-480f-4235-885b-521e6956b320">
-    <img width="165" alt="editphoto" src="https://github.com/akinemreyazici/MedMobile/assets/116732291/ac1207a3-d9f9-4c42-8f9d-9c09d874d25d">
-    <img width="165" alt="makeApp" src="https://github.com/akinemreyazici/MedMobile/assets/116732291/e775bf37-e3d3-4ede-8e3c-d27fe9dd0bd6">
-    <img width="165" alt="projem5" src="https://github.com/akinemreyazici/MedMobile/assets/116732291/d1821e9a-05cd-4822-8dae-b1b359b0f338">   
+    <img width="200" alt="login" src="https://github.com/akinemreyazici/MedMobile/assets/116732291/d2fe88d9-8636-4cbc-bb41-1a492b2eea13">
+    <img width="200" alt="appDeletegif" src="https://github.com/akinemreyazici/MedMobile/assets/116732291/4c478bb9-480f-4235-885b-521e6956b320">
+</p>
+
+<p align="center">
+    <img width="200" alt="editphoto" src="https://github.com/akinemreyazici/MedMobile/assets/116732291/ac1207a3-d9f9-4c42-8f9d-9c09d874d25d">
+    <img width="200" alt="makeApp" src="https://github.com/akinemreyazici/MedMobile/assets/116732291/e775bf37-e3d3-4ede-8e3c-d27fe9dd0bd6">
+    <img width="200" alt="deleteApp" src="https://github.com/akinemreyazici/MedMobile/assets/116732291/d1821e9a-05cd-4822-8dae-b1b359b0f338">   
 </p>
 
 
