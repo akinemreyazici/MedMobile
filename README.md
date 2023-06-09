@@ -40,7 +40,7 @@ MedMobile is an Android application aimed at improving the interaction between d
     - No appointment can be made for a date earlier than today.
     - Appointments can be scheduled for a maximum of 20 days ahead.
     - Time slots are available between 9:00 AM to 5:00 PM in 15-minute intervals.
-    - 
+  
 - Appointments are stored in two different collections in Firestore for easy retrieval:
     - Under the patient's email for all their appointments.
     - Under the doctor's email for all the doctor’s appointments.
